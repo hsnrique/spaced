@@ -10,47 +10,47 @@ const frameworks: Array<CompatibilityItem> = [
     url: "https://reactjs.org/",
   },
   {
-    title: "Preact",
-    icon: "frameworks/preact",
+    title: "Next",
+    icon: "frameworks/next",
     url: "https://preactjs.com/",
   },
   {
-    title: "Svelte",
-    icon: "frameworks/svelte",
+    title: "React Native",
+    icon: "frameworks/react",
+    url: "https://lit.dev/",
+  },
+  {
+    title: "Node",
+    icon: "frameworks/node",
     url: "https://svelte.dev/",
   },
   {
-    title: "Vue",
-    icon: "frameworks/vue",
+    title: "Swift",
+    icon: "frameworks/swift",
     url: "https://vuejs.org/",
   },
   {
-    title: "Solid",
-    icon: "frameworks/solid",
+    title: "Python",
+    icon: "frameworks/python",
     url: "https://www.solidjs.com/",
-  },
-  {
-    title: "Lit",
-    icon: "frameworks/lit",
-    url: "https://lit.dev/",
-  },
+  }
 ];
 
 const platforms: Array<CompatibilityItem> = [
   {
-    title: "Netlify",
+    title: "Blume Telecom",
     icon: "platforms/netlify",
-    url: "https://www.netlify.com/",
+    url: "https://www.blumetelecom.com.br/index.php",
   },
   {
-    title: "Vercel",
+    title: "OesteTI",
     icon: "platforms/vercel",
-    url: "https://vercel.com/",
+    url: "http://www.oesteti.com.br",
   },
   {
-    title: "Cloudflare",
+    title: "Agencia GS",
     icon: "fa-brands:cloudflare",
-    url: "https://pages.cloudflare.com/",
+    url: "https://www.agenciags.com",
   },
   {
     title: "Render",
@@ -77,13 +77,13 @@ const platforms: Array<CompatibilityItem> = [
     and deploy to your favorite <span class="text-primary">platform</span>.
   </Fragment>
   <CompatibilityList
-    items={frameworks}
-    title="Frameworks"
-    url="https://docs.astro.build/core-concepts/framework-components/"
+  items={platforms}
+  title="Clientes"
+  url="https://docs.astro.build/guides/deploy/"
   />
   <CompatibilityList
-    items={platforms}
-    title="Platforms"
-    url="https://docs.astro.build/guides/deploy/"
+    items={frameworks}
+    title="Tecnologias"
+    url="https://docs.astro.build/core-concepts/framework-components/"
   />
 </ContentSection>
