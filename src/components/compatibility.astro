@@ -38,18 +38,18 @@ const frameworks: Array<CompatibilityItem> = [
 
 const platforms: Array<CompatibilityItem> = [
   {
-    title: "Blume Telecom",
-    icon: "platforms/netlify",
+    title: "Blume",
+    icon: "platforms/blume",
     url: "https://www.blumetelecom.com.br/index.php",
   },
   {
     title: "OesteTI",
-    icon: "platforms/vercel",
+    icon: "platforms/oesteti",
     url: "http://www.oesteti.com.br",
   },
   {
     title: "Agencia GS",
-    icon: "fa-brands:cloudflare",
+    icon: "platforms/agenciags",
     url: "https://www.agenciags.com",
   },
   {
@@ -70,20 +70,20 @@ const platforms: Array<CompatibilityItem> = [
 ];
 ---
 
-<ContentSection title="Compatibility" id="compatibility">
+<ContentSection title="Nossos clientes" id="compatibility">
   <Fragment slot="lead">
-    Astro <span class="text-primary">plays nice</span>. Bring your own UI{" "}
-    <span class="text-primary">framework</span>
-    and deploy to your favorite <span class="text-primary">platform</span>.
+    <span class="text-primary">Empresas</span> que fazem{" "}
+    parte da nossa
+    <span class="text-primary">história</span>.
   </Fragment>
   <CompatibilityList
   items={platforms}
   title="Clientes"
   url="https://docs.astro.build/guides/deploy/"
   />
-  <CompatibilityList
+  <!-- <CompatibilityList
     items={frameworks}
     title="Tecnologias"
     url="https://docs.astro.build/core-concepts/framework-components/"
-  />
+  /> -->
 </ContentSection>
